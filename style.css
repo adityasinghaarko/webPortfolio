@@ -1,10 +1,18 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-weight: 700;
 }
 
 h1{
     font-size: 50px;
     
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgrey;
 }
 .Name-highlight{
     color: orange;
@@ -17,4 +25,31 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.top-section{
+    background-image: url("images/background-img.png");
+    background-repeat:no-repeat ;
+    
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    border: 1px solid violet;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: orange;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    background-image:linear-gradient(45deg,lightsalmon,tomato);
+}
+.dream-big{
+    padding-top: 150px;
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
